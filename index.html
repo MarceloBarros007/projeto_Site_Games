@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Smoke</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 tittle-1 p-3">Games Smoke</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-loja" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#lancamentos" class="nav-link">
+                            <i class="bi bi-bell-fill"></i>
+                            Lançamentos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#jogos" class="nav-link">
+                            <i class="bi bi-controller"></i>
+                            Jogos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slides/slide1.png" class="d-block w-100" alt="Games">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide2.png" class="d-block w-100" alt="Games">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide3.png" class="d-block w-100" alt="Games">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+
+            <div class="pb-5 pt-5">
+                <div class="container">
+                    <div class="row align-items-center g-4"> 
+                        <div class="col-md-5">
+                            <img src="images/slides/sobre.png" class="d-block w-100 rounded" alt="Foto da loja">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h3 class="section-title">Sobre a loja</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem libero possimus laborum quo, ipsa sequi maxime sint. Corrupti eos dolorem soluta! Alias adipisci saepe eligendi modi nobis earum magni totam.
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam magnam ipsa fugit culpa eligendi ex deleniti nobis, mollitia, nisi quis numquam, aliquid molestiae fuga esse voluptas qui nihil ratione! Fugit?
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus adipisci eum et asperiores fugiat libero, ducimus voluptatum ipsa error facere obcaecati, blanditiis totam necessitatibus nesciunt corrupti modi possimus. Ut, distinctio?
+                            </p>
+                            </p>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="lancamentos" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Mais esperados do ano</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/lançamentos/Khazan.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-joystick"></i>
+                            Ação/aventura
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo magnam enim dolor saepe laudantium quos officia aspernatur, optio maxime delectus omnis minus provident aut autem voluptatum, dicta nihil nobis. Qui!
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/lançamentos/inzoi.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-dpad-fill"></i>
+                            Simulação
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum ut eum numquam. Exercitationem accusamus sequi obcaecati at velit assumenda delectus eligendi temporibus, dolore fugit alias debitis ut. Blanditiis, saepe deleniti.
+                        </p>
+                    </div>                           
+                    <div class="col-md-4">
+                        <img src="images/lançamentos/split.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Cooperativo
+                        </h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum quos modi, odio mollitia a voluptatem quis veniam est! Similique ex dolore labore quaerat nam maxime recusandae illo obcaecati necessitatibus ipsam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="jogos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Jogos em estoque
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" class="fw-bold text-start nav-link active text-colored" data-bs-toggle="tab" data-bs-target="#jogosAcao">Ação</button>
+                            <button type="button" class="fw-bold text-start nav-link text-colored" data-bs-toggle="tab" data-bs-target="#jogosCorrida">Corrida</button>
+                            <button type="button" class="fw-bold text-start nav-link text-colored" data-bs-toggle="tab" data-bs-target="#jogosEstrategia">Estratégia</button>
+                        </nav>x
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="jogosAcao">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/catalago/Ação/reddead.jpg" alt="Jogo Faroeste">
+                                        <h5 class="text-colored fw-bold mt-2">Red Dead Redemption 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis consectetur quasi consequuntur vero ullam. Repelle
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/catalago/Ação/elder.jpg" alt="Jogos saga Souls">
+                                        <h5 class="text-colored fw-bold mt-2">Elder Ring</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis consectetur quasi consequuntur vero ullam. Repelle
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/catalago/Ação/reddead.jpg" alt="Jogo Faroeste">
+                                        <h5 class="text-colored fw-bold mt-2">Red Dead Redemption 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis consectetur quasi consequuntur vero ullam. Repelle
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/catalago/Ação/elder.jpg" alt="Jogos saga Souls">
+                                        <h5 class="text-colored fw-bold mt-2">Elder Ring</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis consectetur quasi consequuntur vero ullam. Repelle
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/catalago/Ação/reddead.jpg" alt="Jogo Faroeste">
+                                        <h5 class="text-colored fw-bold mt-2">Red Dead Redemption 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis consectetur quasi consequuntur vero ullam. Repelle
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/catalago/Ação/elder.jpg" alt="Jogos saga Souls">
+                                        <h5 class="text-colored fw-bold mt-2">Elder Ring</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis consectetur quasi consequuntur vero ullam. Repelle
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="jogosCorrida">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/catalago/Corrida/Forza.jpg" alt="Carro de corrida">
+                                        <h5 class="text-colored fw-bold mt-2">Forza Horizon 5</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis consectetur quasi consequuntur vero ullam. Repelle
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/catalago/Corrida/f1.jpg" alt="Fornula-1">
+                                        <h5 class="text-colored fw-bold mt-2">F1 2025</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis consectetur quasi consequuntur vero ullam. Repelle
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/catalago/Corrida/Forza.jpg" alt="Carro de corrida">
+                                        <h5 class="text-colored fw-bold mt-2">Forza Horizon 5</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis consectetur quasi consequuntur vero ullam. Repelle
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/catalago/Corrida/f1.jpg" alt="Fornula-1">
+                                        <h5 class="text-colored fw-bold mt-2">F1 2025</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis consectetur quasi consequuntur vero ullam. Repelle
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/catalago/Corrida/Forza.jpg" alt="Carro de corrida">
+                                        <h5 class="text-colored fw-bold mt-2">Forza Horizon 5</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis consectetur quasi consequuntur vero ullam. Repelle
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/catalago/Corrida/f1.jpg" alt="Fornula-1">
+                                        <h5 class="text-colored fw-bold mt-2">F1 2025</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis consectetur quasi consequuntur vero ullam. Repelle
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/catalago/Corrida/Forza.jpg" alt="Carro de corrida">
+                                        <h5 class="text-colored fw-bold mt-2">Forza Horizon 5</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis consectetur quasi consequuntur vero ullam. Repelle
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/catalago/Corrida/f1.jpg" alt="Fornula-1">
+                                        <h5 class="text-colored fw-bold mt-2">F1 2025</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis consectetur quasi consequuntur vero ullam. Repelle
+                                        </p>
+                                    </div>
+                            </div>
+                            
+                            <div class="tab-pane fade" id="pratosPrincipais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/cardapio/pratos/pizza.jpg" alt="Pizza">
+                                        <h5 class="text-colored fw-bold mt-2">Pizza</h5>
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/cardapio/pratos/salmao.jpg" alt="Salmâo">
+                                        <h5 class="text-colored fw-bold mt-2">Salmão</h5>
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/cardapio/pratos/pizza.jpg" alt="Pizza">
+                                        <h5 class="text-colored fw-bold mt-2">Pizza</h5>
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/cardapio/pratos/salmao.jpg" alt="Salmâo">
+                                        <h5 class="text-colored fw-bold mt-2">Salmão</h5>
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/cardapio/pratos/pizza.jpg" alt="Pizza">
+                                        <h5 class="text-colored fw-bold mt-2">Pizza</h5>
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/cardapio/pratos/salmao.jpg" alt="Salmâo">
+                                        <h5 class="text-colored fw-bold mt-2">Salmão</h5>
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/cardapio/sobremesas/bolo.jpg" alt="Bolo">
+                                        <h5 class="text-colored fw-bold mt-2">Bolo</h5>
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/cardapio/sobremesas/cupcake.jpg" alt="Cupcake">
+                                        <h5 class="text-colored fw-bold mt-2">Cupcake</h5>
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/cardapio/sobremesas/bolo.jpg" alt="Bolo">
+                                        <h5 class="text-colored fw-bold mt-2">Bolo</h5>
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/cardapio/sobremesas/cupcake.jpg" alt="Cupcake">
+                                        <h5 class="text-colored fw-bold mt-2">Cupcake</h5>
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/cardapio/sobremesas/bolo.jpg" alt="Bolo">
+                                        <h5 class="text-colored fw-bold mt-2">Bolo</h5>
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/cardapio/sobremesas/cupcake.jpg" alt="Cupcake">
+                                        <h5 class="text-colored fw-bold mt-2">Cupcake</h5>
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="tab-pane fade" id="jogosEstrategia">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/catalago/Estratégia/age-of-empires.jpg" alt="Jogo de estatégia">
+                                        <h5 class="text-colored fw-bold mt-2">Age of Empires IV</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis consectetur quasi consequuntur vero ullam. Repelle
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/catalago/Estratégia/crusader-kings.jpg" alt="Jogo de estratégia">
+                                        <h5 class="text-colored fw-bold mt-2">Crusader Kings 3</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis consectetur quasi consequuntur vero ullam. Repelle
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/catalago/Estratégia/age-of-empires.jpg" alt="Jogo de estatégia">
+                                        <h5 class="text-colored fw-bold mt-2">Age of Empires IV</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis consectetur quasi consequuntur vero ullam. Repelle
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/catalago/Estratégia/crusader-kings.jpg" alt="Jogo de estratégia">
+                                        <h5 class="text-colored fw-bold mt-2">Crusader Kings 3</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis consectetur quasi consequuntur vero ullam. Repelle
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/catalago/Estratégia/age-of-empires.jpg" alt="Jogo de estatégia">
+                                        <h5 class="text-colored fw-bold mt-2">Age of Empires IV</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis consectetur quasi consequuntur vero ullam. Repelle
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/catalago/Estratégia/crusader-kings.jpg" alt="Jogo de estratégia">
+                                        <h5 class="text-colored fw-bold mt-2">Crusader Kings 3</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis consectetur quasi consequuntur vero ullam. Repelle
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/catalago/Estratégia/age-of-empires.jpg" alt="Jogo de estatégia">
+                                        <h5 class="text-colored fw-bold mt-2">Age of Empires IV</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis consectetur quasi consequuntur vero ullam. Repelle
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/catalago/Estratégia/crusader-kings.jpg" alt="Jogo de estratégia">
+                                        <h5 class="text-colored fw-bold mt-2">Crusader Kings 3</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis consectetur quasi consequuntur vero ullam. Repelle
+                                        </p>
+                                    </div>
+                            </div>      
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5 bg-light">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col text-center">
+                        <h2 class="section-title">Fale <span class="text-colored">conosco</span></h2>
+                        <p class="text-muted">Tem alguma dúvida ou sugestão? Estamos aqui para te ouvir!</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" placeholder="Digite seu nome" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" placeholder="seu@email.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control" placeholder="(00) 00000-0000">
+                            </div>  
+                            <div class="mb-3"> 
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                            </div> 
+                            <button type="submit" class="btn btn-primary fw-bold px-4 py-2">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="mb-4">
+                            <h3 class="fs-5 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill me-2"></i>Redes sociais
+                            </h3>
+                            <ul class="social-links p-0 m-0">
+                                <li class="fs-5 me-3">
+                                    <a href="#" target="_blank"><i class="bi bi-facebook text-colored"></i></a>
+                                </li>
+                                <li class="fs-5 me-3">
+                                    <a href="#" target="_blank"><i class="bi bi-instagram text-colored"></i></a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#" target="_blank"><i class="bi bi-whatsapp text-colored"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mt-4">
+                            <h3 class="fs-5 text-colored">
+                                <i class="bi bi-geo-alt-fill me-2"></i>Endereço
+                            </h3>
+                            <p class="mb-0">Rua Teste Exemplo, nº 145</p>
+                            <p>Bairro Bootstrap - São Paulo, SP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>   
+</body>
+</html>

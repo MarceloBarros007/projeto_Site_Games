@@ -1,0 +1,71 @@
+.body{
+font-family: "Passion One", sans-serif;
+}
+
+.tittle-1 {
+    font-family: "Passion One";
+    font-size: 50px;
+    font-style: bold;
+
+}
+
+.navbar {
+background-color: #1b0091;
+}
+
+#cabecalho .nav .nav-link.active {
+background-color: #fff;
+color: #1b0091;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: "Passion One", cursive;
+    font-size: 35px;
+}
+
+
+#sobre-o-restaurante,
+#cardapio {
+    background-color: #ffeae6;
+}
+
+.text-colored {
+    color: #000000;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color:#1b0091;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #3a0aa8;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        width: 280px;
+    }
+}
+
